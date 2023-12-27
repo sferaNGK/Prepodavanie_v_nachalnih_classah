@@ -254,7 +254,7 @@ const images_foreground = [
 
     {
         name: "boxes_are_in_the_locker",
-        src: "./assets/images/foreground/boxes_are_in_the_locker.svg",
+        src: "./assets/images/foreground/Boxes_are_in_the_locker.svg",
         alt: "boxes_are_in_the_locker",
         className: "boxes_are_in_the_locker",
         style_left: "161vh",
@@ -311,7 +311,7 @@ const images_background = [
 
     {
         name: "locker",
-        src: "./assets/images/background/locker.svg",
+        src: "./assets/images/background/Locker.svg",
         alt: "locker",
         className: "locker",
         style_left: "5vh",
@@ -333,7 +333,7 @@ const images_background = [
 
     {
         name: "globe",
-        src: "./assets/images/background/globe.svg",
+        src: "./assets/images/background/Globe.svg",
         alt: "globe",
         className: "globe",
         style_left: "8vh",
@@ -344,7 +344,7 @@ const images_background = [
 
     {
         name: "kolya",
-        src: "./assets/images/background/kolya.svg",
+        src: "./assets/images/background/Kolya.svg",
         alt: "kolya",
         className: "kolya",
         style_left: "90vh",
