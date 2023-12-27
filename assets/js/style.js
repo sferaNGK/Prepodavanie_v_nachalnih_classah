@@ -793,11 +793,11 @@ function task_three(bool){
         document.querySelector(".arrow").style.opacity = "0"
 
         console.log("ку")
-    } else if (bool === "true"){ //Сброс наших неправильных ответов для других тетрадок
-        for(let i of document.querySelectorAll(".example")){
-            i.unswer = "correct"
-            i.name = "correct_task"
-        }
+    }
+
+    for(let i of document.querySelectorAll(".example")){
+        i.unswer = "correct"
+        i.name = "correct_task"
     }
 
 
@@ -1494,19 +1494,19 @@ function studentsDirect(){
     document.querySelector("#message_student").style.zIndex = "100"
 
     if (student.className === "kolya"){
-        document.querySelector("#message_student").innerHTML = "Тема сегодняшнего урока: что способствует успешному проведению занятия? Мне кажется, что учитель что-то вырисовывала красным угольником..."
+        document.querySelector("#message_student").innerHTML = "Тема сегодняшнего урока: что способствует успешному проведению занятия? Мне кажется, что учитель что-то вырисовывала КРАСНЫМ УГОЛЬНИКОМ..."
         document.querySelector("#message_student").style.left = '80vh'
 
     }else if (student.className === "olya"){
-        document.querySelector("#message_student").innerHTML = "Как думаете, учитель ещё не проверил наши самостоятельные работы? Если нет, то как только сядет за стол, похоже начнёт их проверять..."
+        document.querySelector("#message_student").innerHTML = "Как думаете, учитель ещё не проверил наши самостоятельные работы? Если нет, то как только СЯДЕТ ЗА СТОЛ, похоже начнёт их проверять..."
         document.querySelector("#message_student").style.left = '105vh'
 
     }else if (student.className === "dasha"){
-        document.querySelector("#message_student").innerHTML = "Как думаете, на какие основные этапы можно разбить урок? Мне кажется, что на красной вывеске их можно увидеть."
+        document.querySelector("#message_student").innerHTML = "Как думаете, на какие основные этапы можно разбить урок? Мне кажется, что на КРАСНОЙ ВЫВЕСКЕ их можно увидеть."
         document.querySelector("#message_student").style.left = '30vh'
 
     }else if (student.className === "sasha"){
-        document.querySelector("#message_student").innerHTML = "Не забудьте задать преподователю несколько вопросов, когда мы сядем за парты."
+        document.querySelector("#message_student").innerHTML = "Не забудьте задать преподователю несколько вопросов, когда мы сядем за ПАРТЫ."
         document.querySelector("#message_student").style.left = '55vh'
 
     }
@@ -1514,5 +1514,5 @@ function studentsDirect(){
     time = setTimeout(()=>{
         document.querySelector("#message_student").style.opacity = "0"
         document.querySelector("#message_student").style.zIndex = "0"
-    }, 4000)
+    }, 7000)
 }
