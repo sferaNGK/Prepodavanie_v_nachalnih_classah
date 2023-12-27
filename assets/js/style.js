@@ -1316,10 +1316,10 @@ function AnswerTaskFour() {
 
 const getImagesStudents = (name) => {
     const imagesStudentTaskFour = {
-        "Оля": "../assets/images/Head_Olya.svg",
-        "Учитель": "../assets/images/Head_teacher.svg",
-        "Коля": "../assets/images/Head_Kolya.svg",
-        "Саша": "../assets/images/Head_Sasha.svg",
+        "Оля": "./assets/images/Head_Olya.svg",
+        "Учитель": "./assets/images/Head_teacher.svg",
+        "Коля": "./assets/images/Head_Kolya.svg",
+        "Саша": "./assets/images/Head_Sasha.svg",
     };
     return imagesStudentTaskFour[name];
 }
