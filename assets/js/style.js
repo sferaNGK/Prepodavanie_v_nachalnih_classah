@@ -254,7 +254,7 @@ const images_foreground = [
 
     {
         name: "boxes_are_in_the_locker",
-        src: "./assets/images/foreground/boxes_are_in_the_locker.svg",
+        src: "./assets/images/foreground/Boxes_are_in_the_locker.svg",
         alt: "boxes_are_in_the_locker",
         className: "boxes_are_in_the_locker",
         style_left: "161vh",
