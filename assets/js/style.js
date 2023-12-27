@@ -312,7 +312,7 @@ const images_background = [
     {
         name: "locker",
         src: "./assets/images/background/Locker.svg",
-        alt: "locker",
+        alt: "Locker",
         className: "locker",
         style_left: "5vh",
         style_top: "40vh",
