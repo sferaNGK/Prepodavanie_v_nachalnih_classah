@@ -1506,7 +1506,7 @@ function studentsDirect(){
         document.querySelector("#message_student").style.left = '30vh'
 
     }else if (student.className === "sasha"){
-        document.querySelector("#message_student").innerHTML = "Не забудьте задать преподователю несколько вопросов, когда мы сядем за ПАРТЫ."
+        document.querySelector("#message_student").innerHTML = "Не забудьте задать преподавателю несколько вопросов, когда мы сядем за ПАРТЫ."
         document.querySelector("#message_student").style.left = '55vh'
 
     }
