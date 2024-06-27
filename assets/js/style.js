@@ -734,15 +734,12 @@ function taskTwoUnswer(){
         if (task_two_answer[i].slice(1, task_two_answer[i].length) === document.querySelectorAll(".task_two")[i].innerHTML.slice(3, document.querySelectorAll(".task_two")[i].innerHTML.length)){
             document.querySelectorAll(".task_two")[i].style.backgroundColor = 'rgba(63, 199, 104, 1)'
             document.querySelectorAll(".task_two")[i].removeEventListener("click", taskTwoUnswer)
-        }
-    }
 
-    for (let i of document.querySelectorAll(".task_two")){
-        if ('rgba(211, 189, 199, 0.8)' === i.style.backgroundColor){
             taskTwoUswerCh++
+            console.log(taskTwoUswerCh);
         }
     }
-
+    
     if (taskTwoUswerCh === 5){
         document.querySelector(".task.two h3.title").innerHTML = "Вы успешно прошли задание!!!"
 
