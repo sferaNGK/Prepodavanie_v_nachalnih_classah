@@ -713,7 +713,7 @@ function taskTwoUnswer(){
     let taskTwoUswerCh = 0
     if (event.target.status !== "active"){
         event.target.status = "active"
-        event.target.style.backgroundColor = "#BEF4C8"
+        event.target.style.backgroundColor = "#8CD0B7CC"
     }else {
         event.target.status = "passive"
         event.target.style.backgroundColor = "rgba(255, 255, 255, 0.8)"
@@ -732,13 +732,13 @@ function taskTwoUnswer(){
     }
     for (let i = 0; i < task_two_answer.length; i++){
         if (task_two_answer[i].slice(1, task_two_answer[i].length) === document.querySelectorAll(".task_two")[i].innerHTML.slice(3, document.querySelectorAll(".task_two")[i].innerHTML.length)){
-            document.querySelectorAll(".task_two")[i].style.backgroundColor = '#D3BDBDCC'
+            document.querySelectorAll(".task_two")[i].style.backgroundColor = 'rgba(63, 199, 104, 1)'
             document.querySelectorAll(".task_two")[i].removeEventListener("click", taskTwoUnswer)
         }
     }
 
     for (let i of document.querySelectorAll(".task_two")){
-        if ('rgba(9, 198, 1, 0.8)' === i.style.backgroundColor){
+        if ('rgba(211, 189, 199, 0.8)' === i.style.backgroundColor){
             taskTwoUswerCh++
         }
     }
