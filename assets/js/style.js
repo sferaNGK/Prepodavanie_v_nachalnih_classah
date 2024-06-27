@@ -22,10 +22,10 @@ const images_foreground = [
     },
 
     {
-        name: "watch",
-        src: "./assets/images/foreground/Watch.svg",
-        alt: "watch",
-        className: "watch",
+        name: "clock",
+        src: "./assets/images/foreground/Clock.svg",
+        alt: "clock",
+        className: "clock",
         style_left: "88vh",
         style_top: "2vh",
         zIndex: 2,
