@@ -713,7 +713,7 @@ function taskTwoUnswer(){
     let taskTwoUswerCh = 0
     if (event.target.status !== "active"){
         event.target.status = "active"
-        event.target.style.backgroundColor = "#8CD0B7CC"
+        event.target.style.backgroundColor = "#BEF4C8"
     }else {
         event.target.status = "passive"
         event.target.style.backgroundColor = "rgba(255, 255, 255, 0.8)"
@@ -738,7 +738,7 @@ function taskTwoUnswer(){
     }
 
     for (let i of document.querySelectorAll(".task_two")){
-        if ('rgba(211, 189, 189, 0.8)' === i.style.backgroundColor){
+        if ('rgba(9, 198, 1, 0.8)' === i.style.backgroundColor){
             taskTwoUswerCh++
         }
     }
